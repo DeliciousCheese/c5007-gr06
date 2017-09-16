@@ -1,0 +1,14 @@
+.restrictImage{
+    max-width: 70%;
+    
+}
+
+.homeFeatures{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:24px;
+    }
+}
