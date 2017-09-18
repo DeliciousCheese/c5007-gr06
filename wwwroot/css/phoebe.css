@@ -1,6 +1,6 @@
 .restrictImage{
-    max-width: 60%;
-    
+    width: 31%;
+    margin-right: 2%;
 }
 
 .homeFeatures{
@@ -13,5 +13,12 @@
 @media screen and (max-width: 768px) {
     h1{
         font-size:24px;
+    }
+    .resizeImage{
+        min-width: 300px;
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+
     }
 }
