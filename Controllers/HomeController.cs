@@ -34,6 +34,13 @@ namespace c5007_gr06.Controllers
             return View();
         }
 
+        public IActionResult Media()
+        {
+            ViewData["Message"] = "Your Media page.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
