@@ -15,7 +15,10 @@ namespace c5007_gr06.Controllers
             return View();
         }
 
+        public IActionResult Portfolio()
+
         public IActionResult Home()
+
         {
             return View();
         }
