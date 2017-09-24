@@ -27,6 +27,13 @@ namespace c5007_gr06.Controllers
             return View();
         }
 
+        public IActionResult Profiles()
+        {
+            ViewData["Message"] = "Information about the employees.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
