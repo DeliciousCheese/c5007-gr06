@@ -40,6 +40,13 @@ namespace c5007_gr06.Controllers
             return View();
         }
 
+        public IActionResult Blogs()
+        {
+            ViewData["Message"] = "Company Blog";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
