@@ -16,6 +16,9 @@ namespace c5007_gr06.Controllers
         }
 
         public IActionResult Portfolio()
+
+        public IActionResult Home()
+
         {
             return View();
         }
@@ -27,9 +30,23 @@ namespace c5007_gr06.Controllers
             return View();
         }
 
+        public IActionResult Profiles()
+        {
+            ViewData["Message"] = "Information about the employees.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult Media()
+        {
+            ViewData["Message"] = "Your Media page.";
 
             return View();
         }

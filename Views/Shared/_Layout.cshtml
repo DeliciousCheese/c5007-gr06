@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/Travis.css" />
+
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -19,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">c5007_gr06</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Group 6</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -27,6 +31,16 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Portfolio">Portfolio</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Media">Media</a></li>
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+
                 </ul>
             </div>
         </div>
@@ -35,7 +49,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - c5007_gr06</p>
+            <p>&copy; 2017 - Comp5007 - Group 6</p>
         </footer>
     </div>
 
