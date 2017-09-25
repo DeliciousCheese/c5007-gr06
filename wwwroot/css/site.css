@@ -105,17 +105,22 @@ h3{
     padding-bottom: 20px;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
+@media screen and (max-width: 992px) {
+    .search-size{
+        font-size: 11px;
+    }
+    input{
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 768px) {
     h1{
         font-size:24px;
+    }
+
+    .search-size{
+        font-size: 16px;
     }
 
     .resizeImage{
@@ -134,4 +139,10 @@ h3{
     }
 }
 
-
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
