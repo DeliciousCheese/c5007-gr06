@@ -16,7 +16,7 @@ namespace c5007_gr06.Controllers
         }
 
         public IActionResult Portfolio()
-         {
+        {
             return View();
         }
 

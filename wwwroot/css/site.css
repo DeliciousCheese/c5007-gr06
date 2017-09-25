@@ -10,8 +10,6 @@
     padding-right: 15px;
 }
 
-
-
 /* Carousel */
 .carousel-caption p {
     font-size: 20px;
@@ -26,20 +24,6 @@
 /* QR code generator */
 #qrCode {
     margin: 15px;
-}
-
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
-}
-
-.mediaBoxes{
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 #custom-search-form {
@@ -78,3 +62,76 @@
 
 .search-query:focus + button {
     z-index: 3;
+}
+
+.centered{
+    text-align: center;
+}
+
+.thumb-height{
+    height: 440px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.restrictImage{
+    width: 31%;
+    margin-right: 2%;
+}
+
+.homeFeatures{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.padding{
+    padding-top: 10px;
+}
+
+.mediaBoxes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right-align{
+    margin-right: 20px;
+    align-self: right;
+}
+.Carousel-buttons{
+    padding-bottom: 20px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:24px;
+    }
+
+    .resizeImage{
+        min-width: 300px;
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .thumb-height{
+        height: auto;
+    }
+
+    .Carousel-buttons{
+        padding-bottom: 25px;
+    }
+}
+
+
